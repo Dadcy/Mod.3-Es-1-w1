@@ -1,0 +1,78 @@
+/*1*/
+.jumbotron  h1 { /* .jumbotron div h1 */
+    color: green;
+}
+
+/*2*/
+nav > span {         /* nav * seleziona tutti */
+    color: brown;
+}
+
+/*3*/
+.jumbotron p a { background-color: burlywood;
+color:rgb(165, 42, 93);
+}/* .jumbotron a */
+
+/*4*/
+.blog-post:first-of-type{    
+    border: 3px solid green;
+    background-color:coral;
+    color: darkslategrey;
+}
+
+/*5*/
+.blog-post:nth-child(2) hr{  /*viene considerato h3 come primo figlio*/
+border-color: red;
+}
+
+/*6*/
+.blog-pagination a:nth-of-type(even){
+    background-color: darkmagenta;
+    color: beige;
+}
+
+/*7*/
+.list-unstyled.mb-0 li {
+    color: darkolivegreen;
+    border: 4px solid darkorchid;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 15px;
+}
+
+/*8*/
+.blog-post:nth-child(3) .blog-post-meta a {
+    border:2px solid fuchsia;
+    background-color: darkslateblue;
+   color: blanchedalmond;
+}
+
+/*9*/
+.blog-post:nth-child(4) ul li:nth-of-type(2){ /* nth-child(2)*/
+    color: lawngreen;
+}
+
+/*10*/
+.float-right.mb-3.mr-3{
+    border: 2px solid darkorange;
+    color:lightgreen
+}
+
+/*11*/
+.btn.btn-outline-secondary.disabled {  /* .btn[aria-disabled="true"] meno specifico dell'opzione scelta*/
+    border: 5px solid darkslategrey;
+    background-color: chartreuse;
+    color: darkblue;
+}
+
+/*12*/
+.text-center a:nth-child(2){
+    color: burlywood;
+}
+
+/* Esercizi JS */
+
+/*1*/
+.list-unstyled li:nth-child(2) a {
+    color:chocolate;
+}
